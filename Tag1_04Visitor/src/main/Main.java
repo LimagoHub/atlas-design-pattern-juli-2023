@@ -22,6 +22,8 @@ public class Main {
         firma.add(new LohnEmpfaenger("Kunz", 12, 20));
 
 
+        // AuszahlungsVisitor
+
         //firma.print();
         firma.iterate(new PrintVisitor());
         firma.iterate(new ResetArbeitszeitVisitor());
