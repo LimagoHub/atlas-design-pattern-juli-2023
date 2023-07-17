@@ -1,0 +1,8 @@
+
+\
+java:S1854":Remove this useless assignment to local variable "string".(Â¤…øûÿÿÿÿ8ç©¶™–1
+M
+java:S1481"+Remove this unused "string" local variable.(Â¤…øûÿÿÿÿ8ê©¶™–1
+T	java:S106"9Replace this use of System.out or System.err by a logger.(î¾ÄM8™£™–1
+X
+java:S1128";Remove this unused import 'flyweight.AttributedCharachter'.(ÚĞ¨8«‚¸™–1
