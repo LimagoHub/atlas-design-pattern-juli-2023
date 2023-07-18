@@ -1,0 +1,7 @@
+
+z	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ8¶¾Ä–1
+˜
+java:S2681"{This statement will not be executed conditionally; only the first statement will be. The rest will execute unconditionally.(œ•î±8·¾Ä–1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(‘ıãÆ8İ¾Ä–1
+9
+java:S1116"Remove this empty statement.(œ•î±8Ş¾Ä–1
