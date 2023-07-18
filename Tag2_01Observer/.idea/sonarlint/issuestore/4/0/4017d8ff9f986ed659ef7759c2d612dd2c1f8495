@@ -1,6 +1,0 @@
-
-U	java:S106"9Replace this use of System.out or System.err by a logger.(å ¿8ú¼šÀ–1
-]	java:S125"<This block of commented-out lines of code should be removed.(Øà‘ğÿÿÿÿÿ8­ò§À–1
-X	java:S125&"<This block of commented-out lines of code should be removed.(ÒĞ€ä8ıŸÀ–1
-K
-java:S3398")Move this method into "MyWindowListener".(Ïüòûÿÿÿÿ8Î×¨À–1
