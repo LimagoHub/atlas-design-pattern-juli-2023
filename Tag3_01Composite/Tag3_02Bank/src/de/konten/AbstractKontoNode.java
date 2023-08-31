@@ -1,9 +1,11 @@
 package de.konten;
 
+import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
 
-public class AbstractKontoNode {
+public class AbstractKontoNode implements Iterable<AbstractKontoNode>{
 
     private AbstractKontoNode parent = null;
     private String label = "undefined";
@@ -33,9 +35,23 @@ public class AbstractKontoNode {
     }
 
     public void print() {
-        System.out.println(this);
-        for (AbstractKontoNode child: getChildren())
-            child.print();
+        for (AbstractKontoNode node: this) {
+            System.out.println(node);
+        }
+    }
+
+    @Override
+    public Iterator<AbstractKontoNode> iterator() {
+        final List<AbstractKontoNode> list = new ArrayList<>();
+        addSelfAndDescendantsToList(list);
+        return list.iterator();
+    }
+
+    private void addSelfAndDescendantsToList(final List<AbstractKontoNode> list) {
+        list.add(this);
+        for(AbstractKontoNode child: getChildren()) {
+            child.addSelfAndDescendantsToList(list);
+        }
     }
 
     @Override
