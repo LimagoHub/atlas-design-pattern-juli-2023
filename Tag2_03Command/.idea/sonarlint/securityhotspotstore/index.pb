@@ -1,4 +1,6 @@
 
+N
+src/commands/PrintCommand.java,3\f\3fa087b2d2b972e6299c7820a1d0010dbd7848e7
 P
  src/commands/CommandFactory.java,6\9\69d3147f894dd3433cb37fcb64909becdbf7fd70
 H
@@ -15,7 +17,5 @@ P
  src/commands/CommandHistory.java,d\e\de7b7b5c2c1c5999bf289aca4631fd826fea5e71
 L
 src/commands/AddCommand.java,5\e\5ee07bd74114e33140500957faaca5a868cfeeb6
-N
-src/commands/PrintCommand.java,3\f\3fa087b2d2b972e6299c7820a1d0010dbd7848e7
 Q
 !src/commands/AbstractCommand.java,1\e\1eb97ca120944143a7d24ee1f8dbb4fdb95cbc56
